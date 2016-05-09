@@ -1,0 +1,7 @@
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.UHCareDowntimeViewer.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.UHCareDowntimeViewer.Model.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.Common.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.Common.Model.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\obj\Debug\UH.UHPHI.Model.csprojResolveAssemblyReference.cache
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\obj\Debug\UH.UHCareDowntimeViewer.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\obj\Debug\UH.UHCareDowntimeViewer.Model.pdb

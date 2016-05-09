@@ -1,0 +1,11 @@
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.PHI.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.PHI.Model.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.Common.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.Common.Model.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\obj\Debug\UH.PHI.Model.csprojResolveAssemblyReference.cache
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\obj\Debug\UH.PHI.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Model\obj\Debug\UH.PHI.Model.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.PHI.Model.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Model\bin\Debug\UH.PHI.Model.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Model\obj\Debug\UH.PHI.Model.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Model\obj\Debug\UH.PHI.Model.pdb
