@@ -1,0 +1,92 @@
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Service.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Service.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\EntityFramework.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\Newtonsoft.Json.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Spatial.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Helpers.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Mvc.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Optimization.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Razor.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.Deployment.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.Razor.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.Common.Business.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.Common.Logging.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.Common.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.Common.Service.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Business.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.DAL.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\log4net.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.Common.Business.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.Common.Model.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.Common.Service.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.Common.Logging.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Business.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.DAL.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Model.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Optimization.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\EntityFramework.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\Newtonsoft.Json.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Helpers.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Mvc.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Razor.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.Deployment.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.Razor.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\System.Spatial.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\log4net.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\de\System.Spatial.resources.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\es\System.Spatial.resources.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\fr\System.Spatial.resources.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\it\System.Spatial.resources.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\ja\System.Spatial.resources.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\ko\System.Spatial.resources.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\ru\System.Spatial.resources.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\zh-Hans\System.Spatial.resources.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\bin\zh-Hant\System.Spatial.resources.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\obj\Debug\UH.PHI.Service.csprojResolveAssemblyReference.cache
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\obj\Debug\UH.PHI.Service.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Service\obj\Debug\UH.PHI.Service.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\obj\Debug\UH.PHI.Service.csprojResolveAssemblyReference.cache
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\obj\Debug\UH.PHI.Service.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\obj\Debug\UH.PHI.Service.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Service.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Service.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\EntityFramework.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\Newtonsoft.Json.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Spatial.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Helpers.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Mvc.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Optimization.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Razor.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.Deployment.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.Razor.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Business.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.DAL.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Model.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Business.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.DAL.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\UH.PHI.Model.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Optimization.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\EntityFramework.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\Newtonsoft.Json.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Helpers.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Mvc.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.Razor.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.Deployment.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Web.WebPages.Razor.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\System.Spatial.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\de\System.Spatial.resources.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\es\System.Spatial.resources.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\fr\System.Spatial.resources.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\it\System.Spatial.resources.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\ja\System.Spatial.resources.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\ko\System.Spatial.resources.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\ru\System.Spatial.resources.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\zh-Hans\System.Spatial.resources.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Service\bin\zh-Hant\System.Spatial.resources.dll
