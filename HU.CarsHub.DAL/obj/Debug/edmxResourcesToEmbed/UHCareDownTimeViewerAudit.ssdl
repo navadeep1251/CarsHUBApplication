@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UHCareDownTimeViewerAuditModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="UHCareDownTimeViewerAuditModelStoreContainer">
+    <EntitySet Name="PatientViewed" EntityType="UHCareDownTimeViewerAuditModel.Store.PatientViewed" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SearchCriteria" EntityType="UHCareDownTimeViewerAuditModel.Store.SearchCriteria" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SearchResults" EntityType="UHCareDownTimeViewerAuditModel.Store.SearchResults" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_PatientViewed_SearchCriteria" Association="UHCareDownTimeViewerAuditModel.Store.FK_PatientViewed_SearchCriteria">
+      <End Role="SearchCriteria" EntitySet="SearchCriteria" />
+      <End Role="PatientViewed" EntitySet="PatientViewed" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SearchResults_SearchCriteria" Association="UHCareDownTimeViewerAuditModel.Store.FK_SearchResults_SearchCriteria">
+      <End Role="SearchCriteria" EntitySet="SearchCriteria" />
+      <End Role="SearchResults" EntitySet="SearchResults" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="PatientViewed">
+    <Key>
+      <PropertyRef Name="PatientViewedId" />
+    </Key>
+    <Property Name="PatientViewedId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SearchCriteriaId" Type="bigint" Nullable="false" />
+    <Property Name="ClientID" Type="bigint" />
+    <Property Name="ClientVisitID" Type="bigint" />
+    <Property Name="VisitID" Type="varchar" MaxLength="15" />
+    <Property Name="CreatedBy" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SearchCriteria">
+    <Key>
+      <PropertyRef Name="SearchCriteriaId" />
+    </Key>
+    <Property Name="SearchCriteriaId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="MRN" Type="varchar" MaxLength="10" />
+    <Property Name="VisitID" Type="varchar" MaxLength="15" />
+    <Property Name="Location" Type="varchar" MaxLength="20" />
+    <Property Name="CreatedBy" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SearchResults">
+    <Key>
+      <PropertyRef Name="SearchResultsId" />
+    </Key>
+    <Property Name="SearchResultsId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SearchCriteriaId" Type="bigint" Nullable="false" />
+    <Property Name="ClientID" Type="bigint" />
+    <Property Name="ClientVisitID" Type="bigint" />
+    <Property Name="VisitID" Type="varchar" MaxLength="15" />
+    <Property Name="CreatedBy" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_PatientViewed_SearchCriteria">
+    <End Role="SearchCriteria" Type="UHCareDownTimeViewerAuditModel.Store.SearchCriteria" Multiplicity="1" />
+    <End Role="PatientViewed" Type="UHCareDownTimeViewerAuditModel.Store.PatientViewed" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SearchCriteria">
+        <PropertyRef Name="SearchCriteriaId" />
+      </Principal>
+      <Dependent Role="PatientViewed">
+        <PropertyRef Name="SearchCriteriaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SearchResults_SearchCriteria">
+    <End Role="SearchCriteria" Type="UHCareDownTimeViewerAuditModel.Store.SearchCriteria" Multiplicity="1" />
+    <End Role="SearchResults" Type="UHCareDownTimeViewerAuditModel.Store.SearchResults" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SearchCriteria">
+        <PropertyRef Name="SearchCriteriaId" />
+      </Principal>
+      <Dependent Role="SearchResults">
+        <PropertyRef Name="SearchCriteriaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

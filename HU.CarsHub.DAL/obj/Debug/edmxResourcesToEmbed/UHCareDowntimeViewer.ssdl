@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DowntimeViewerModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DowntimeViewerModelStoreContainer" />
+  <Function Name="UH_DV_AllergyListLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientVisitGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_DocumentDetailLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientDocumentGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_DocumentListLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientVisitGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_FacilityList_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="UH_DV_FlowsheetLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientVisitGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_HomeMedsLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientVisitGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_MedAdminLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientVisitGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_OrdersLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientVisitGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_PatientListByCriteria_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="LocationGUID" Type="numeric" Mode="In" />
+    <Parameter Name="LastName" Type="varchar" Mode="In" />
+    <Parameter Name="FirstName" Type="varchar" Mode="In" />
+    <Parameter Name="VisitIDCode" Type="char" Mode="In" />
+    <Parameter Name="MRN" Type="char" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_ProblemListLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientVisitGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_ResultsLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientVisitGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_SignificantEventLite_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClientVisitGUID" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="UH_DV_UnitListByFacility_O_R_Pr" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FacilityLocationGUID" Type="numeric" Mode="In" />
+  </Function>
+</Schema>

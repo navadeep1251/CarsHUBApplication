@@ -1,0 +1,16 @@
+C:\My Projects\UHPHI\Development\UH.UHPHI.DAL\bin\Debug\UH.PHI.DAL.dll.config
+C:\My Projects\UHPHI\Development\UH.UHPHI.DAL\bin\Debug\UH.PHI.DAL.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.DAL\bin\Debug\UH.PHI.DAL.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.DAL\bin\Debug\EntityFramework.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.DAL\bin\Debug\EntityFramework.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.DAL\obj\Debug\UH.PHI.DAL.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.DAL\obj\Debug\UH.PHI.DAL.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.DAL\obj\Debug\HU.CarsHub.DAL.csprojResolveAssemblyReference.cache
+C:\My Projects\UHPHI\Development\HU.CarsHub.DAL\bin\Debug\UH.PHI.DAL.dll.config
+C:\My Projects\UHPHI\Development\HU.CarsHub.DAL\bin\Debug\UH.PHI.DAL.dll
+C:\My Projects\UHPHI\Development\HU.CarsHub.DAL\bin\Debug\UH.PHI.DAL.pdb
+C:\My Projects\UHPHI\Development\HU.CarsHub.DAL\bin\Debug\EntityFramework.dll
+C:\My Projects\UHPHI\Development\HU.CarsHub.DAL\bin\Debug\EntityFramework.xml
+C:\My Projects\UHPHI\Development\HU.CarsHub.DAL\obj\Debug\HU.CarsHub.DAL.csprojResolveAssemblyReference.cache
+C:\My Projects\UHPHI\Development\HU.CarsHub.DAL\obj\Debug\UH.PHI.DAL.dll
+C:\My Projects\UHPHI\Development\HU.CarsHub.DAL\obj\Debug\UH.PHI.DAL.pdb

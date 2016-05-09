@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DowntimeViewerModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DowntimeViewerEntities" p1:LazyLoadingEnabled="true">
+    <FunctionImport Name="UH_DV_FacilityList_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_FacilityList_O_R_Pr_Result)" />
+    <FunctionImport Name="UH_DV_UnitListByFacility_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_UnitListByFacility_O_R_Pr_Result)">
+      <Parameter Name="FacilityLocationGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_PatientListByCriteria_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_PatientListByCriteria_O_R_Pr_Result)">
+      <Parameter Name="LocationGUID" Mode="In" Type="Decimal" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+      <Parameter Name="FirstName" Mode="In" Type="String" />
+      <Parameter Name="VisitIDCode" Mode="In" Type="String" />
+      <Parameter Name="MRN" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_AllergyListLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_AllergyListLite_O_R_Pr_Result)">
+      <Parameter Name="ClientVisitGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_DocumentListLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_DocumentListLite_O_R_Pr_Result)">
+      <Parameter Name="ClientVisitGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_ResultsLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_ResultsLite_O_R_Pr_Result)">
+      <Parameter Name="ClientVisitGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_FlowsheetLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_FlowsheetLite_O_R_Pr_Result)">
+      <Parameter Name="ClientVisitGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_ProblemListLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_ProblemListLite_O_R_Pr_Result)">
+      <Parameter Name="ClientVisitGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_SignificantEventLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_SignificantEventLite_O_R_Pr_Result)">
+      <Parameter Name="ClientVisitGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_DocumentDetailLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_DocumentDetailLite_O_R_Pr_Result)">
+      <Parameter Name="ClientDocumentGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_HomeMedsLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_HomeMedsLite_O_R_Pr_Result)">
+      <Parameter Name="ClientVisitGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_MedAdminLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_MedAdminLite_O_R_Pr_Result)">
+      <Parameter Name="ClientVisitGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UH_DV_OrdersLite_O_R_Pr" ReturnType="Collection(DowntimeViewerModel.UH_DV_OrdersLite_O_R_Pr_Result)">
+      <Parameter Name="ClientVisitGUID" Mode="In" Type="Decimal" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="UH_DV_FacilityList_O_R_Pr_Result">
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="30" />
+    <Property Type="Decimal" Name="LocationGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="Boolean" Name="IsFacility" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_UnitListByFacility_O_R_Pr_Result">
+    <Property Type="String" Name="FacilityName" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="UnitName" Nullable="true" MaxLength="30" />
+    <Property Type="Decimal" Name="UnitLocationGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="UnitFacilityGUID" Nullable="true" Precision="16" Scale="0" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_PatientListByCriteria_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="String" Name="MRN" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="EncounterNumber" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="PatientName" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="DOB" Nullable="true" />
+    <Property Type="String" Name="VisitType" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="CareLevel" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Service" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="Height" Nullable="true" MaxLength="258" />
+    <Property Type="String" Name="Weight" Nullable="true" MaxLength="103" />
+    <Property Type="String" Name="MedCalcWeight" Nullable="true" MaxLength="103" />
+    <Property Type="DateTime" Name="AdmitDtm" Nullable="true" Precision="23" />
+    <Property Type="String" Name="CurrentLocation" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="VisitStatus" Nullable="true" MaxLength="3" />
+    <Property Type="Int32" Name="ArcType" Nullable="false" />
+    <Property Type="String" Name="AttendingProvider" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_AllergyListLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="String" Name="CodeName" Nullable="false" MaxLength="12" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Allergen" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Reaction" Nullable="true" MaxLength="2000" />
+    <Property Type="DateTime" Name="EntryDate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_DocumentListLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientDocumentGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="DateTime" Name="AuthoredDtm" Nullable="true" Precision="23" />
+    <Property Type="String" Name="DocumentName" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="AuthoredProvider" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_ResultsLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="String" Name="MasterCategory" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="ItemName" Nullable="true" MaxLength="125" />
+    <Property Type="String" Name="Value" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="AbnormalityCode" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="ReferenceUpperLimit" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ReferenceLowerLimit" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="125" />
+    <Property Type="DateTime" Name="PerformedDtm" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Text" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="SignificantDtm" Nullable="true" />
+    <Property Type="String" Name="PriorityCode" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_FlowsheetLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="String" Name="DocumentName" Nullable="true" MaxLength="60" />
+    <Property Type="DateTime" Name="DocumentAuthoredDtm" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="DocGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="String" Name="ObsLabelRight" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="ObsComments" Nullable="true" MaxLength="2000" />
+    <Property Type="Int32" Name="ObsDisplaySeq" Nullable="true" />
+    <Property Type="String" Name="ObsHeading" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="UserModified" Nullable="true" MaxLength="83" />
+    <Property Type="String" Name="ColumnTextComments" Nullable="true" MaxLength="30" />
+    <Property Type="DateTime" Name="LastUpdatedtimeOfOBSDoc" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ValueAndUOM" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_ProblemListLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="ProblemText" Nullable="false" MaxLength="2257" />
+    <Property Type="DateTime" Name="OnsetDate" Nullable="true" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_SignificantEventLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="EventDescription" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="EventText" Nullable="true" MaxLength="255" />
+    <Property Type="DateTime" Name="LastUpdated" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_DocumentDetailLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientDocumentGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="PatCareDocGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="String" Name="DocumentName" Nullable="true" MaxLength="60" />
+    <Property Type="Int32" Name="DocumentType" Nullable="false" />
+    <Property Type="Boolean" Name="HasBeenModified" Nullable="false" />
+    <Property Type="DateTime" Name="ModificationDtm" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="AuthoredDtm" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="IsCanceled" Nullable="false" />
+    <Property Type="String" Name="DocDetailText" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_HomeMedsLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="String" Name="DrugName" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ReconciliationStatus" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="HomeMedStatus" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="Date" Nullable="true" Precision="23" />
+    <Property Type="String" Name="PreferredPharmacy" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="MedicationStatus" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="LastDoseTaken" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_MedAdminLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="false" Precision="16" Scale="0" />
+    <Property Type="String" Name="TaskOrderSummaryLine" Nullable="true" MaxLength="2000" />
+    <Property Type="String" Name="TaskStatusCode" Nullable="true" MaxLength="30" />
+    <Property Type="DateTime" Name="ScheduleDtm" Nullable="true" Precision="23" />
+    <Property Type="String" Name="TaskDose" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TaskUOM" Nullable="true" MaxLength="30" />
+    <Property Type="DateTime" Name="PerformedFromDtm" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="OrderTaskGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="DateTime" Name="LastAdministered" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Comments" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="UserName" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="NextScheduled" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="SignificantDtm" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="ScheduledNextAvailable" Nullable="true" Precision="23" />
+    <Property Type="String" Name="TaskName" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TaskReason" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="UH_DV_OrdersLite_O_R_Pr_Result">
+    <Property Type="Decimal" Name="ClientGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ChartGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="Decimal" Name="ClientVisitGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="String" Name="OrderName" Nullable="true" MaxLength="125" />
+    <Property Type="DateTime" Name="OrderRequestedDtm" Nullable="true" Precision="23" />
+    <Property Type="String" Name="OrderRequestedBy" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="OrderStatus" Nullable="true" MaxLength="60" />
+    <Property Type="String" Name="OrderReviewCategory" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OrderSummaryLine" Nullable="true" MaxLength="2000" />
+    <Property Type="String" Name="OrderReviewCategorySortCode" Nullable="true" MaxLength="10" />
+    <Property Type="Boolean" Name="OrderIsConditional" Nullable="false" />
+    <Property Type="String" Name="OrderConditionsText" Nullable="true" MaxLength="255" />
+    <Property Type="Boolean" Name="OrderIsHeld" Nullable="false" />
+    <Property Type="String" Name="OrderHoldReasonText" Nullable="true" MaxLength="255" />
+    <Property Type="Boolean" Name="OrderIsSuspended" Nullable="false" />
+    <Property Type="String" Name="SuspendedText" Nullable="true" MaxLength="2000" />
+    <Property Type="Int64" Name="VerifiedOrderId" Nullable="true" />
+    <Property Type="DateTime" Name="VerifiedDtm" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="VerifiedByGUID" Nullable="true" Precision="16" Scale="0" />
+    <Property Type="String" Name="VerifiedStatus" Nullable="true" MaxLength="22" />
+  </ComplexType>
+</Schema>

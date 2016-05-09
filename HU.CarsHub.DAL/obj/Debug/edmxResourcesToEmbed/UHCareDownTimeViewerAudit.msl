@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UHCareDownTimeViewerAuditModelStoreContainer" CdmEntityContainer="UHCareDownTimeViewerAudit">
+    <EntitySetMapping Name="PatientVieweds">
+      <EntityTypeMapping TypeName="UHCareDownTimeViewerAuditModel.PatientViewed">
+        <MappingFragment StoreEntitySet="PatientViewed">
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="VisitID" ColumnName="VisitID" />
+          <ScalarProperty Name="ClientVisitID" ColumnName="ClientVisitID" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="SearchCriteriaId" ColumnName="SearchCriteriaId" />
+          <ScalarProperty Name="PatientViewedId" ColumnName="PatientViewedId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchCriterias">
+      <EntityTypeMapping TypeName="UHCareDownTimeViewerAuditModel.SearchCriteria">
+        <MappingFragment StoreEntitySet="SearchCriteria">
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="VisitID" ColumnName="VisitID" />
+          <ScalarProperty Name="MRN" ColumnName="MRN" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="SearchCriteriaId" ColumnName="SearchCriteriaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchResults">
+      <EntityTypeMapping TypeName="UHCareDownTimeViewerAuditModel.SearchResult">
+        <MappingFragment StoreEntitySet="SearchResults">
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="VisitID" ColumnName="VisitID" />
+          <ScalarProperty Name="ClientVisitID" ColumnName="ClientVisitID" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="SearchCriteriaId" ColumnName="SearchCriteriaId" />
+          <ScalarProperty Name="SearchResultsId" ColumnName="SearchResultsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

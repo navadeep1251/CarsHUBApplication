@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DowntimeViewerModelStoreContainer" CdmEntityContainer="DowntimeViewerEntities">
+    <FunctionImportMapping FunctionImportName="UH_DV_FacilityList_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_FacilityList_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_FacilityList_O_R_Pr_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LocationGUID" ColumnName="LocationGUID" />
+          <ScalarProperty Name="IsFacility" ColumnName="IsFacility" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_UnitListByFacility_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_UnitListByFacility_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_UnitListByFacility_O_R_Pr_Result">
+          <ScalarProperty Name="FacilityName" ColumnName="FacilityName" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="UnitLocationGUID" ColumnName="UnitLocationGUID" />
+          <ScalarProperty Name="UnitFacilityGUID" ColumnName="UnitFacilityGUID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_PatientListByCriteria_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_PatientListByCriteria_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_PatientListByCriteria_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="MRN" ColumnName="MRN" />
+          <ScalarProperty Name="EncounterNumber" ColumnName="EncounterNumber" />
+          <ScalarProperty Name="PatientName" ColumnName="PatientName" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="VisitType" ColumnName="VisitType" />
+          <ScalarProperty Name="CareLevel" ColumnName="CareLevel" />
+          <ScalarProperty Name="Service" ColumnName="Service" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="MedCalcWeight" ColumnName="MedCalcWeight" />
+          <ScalarProperty Name="AdmitDtm" ColumnName="AdmitDtm" />
+          <ScalarProperty Name="CurrentLocation" ColumnName="CurrentLocation" />
+          <ScalarProperty Name="VisitStatus" ColumnName="VisitStatus" />
+          <ScalarProperty Name="ArcType" ColumnName="ArcType" />
+          <ScalarProperty Name="AttendingProvider" ColumnName="AttendingProvider" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_AllergyListLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_AllergyListLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_AllergyListLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="CodeName" ColumnName="CodeName" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Allergen" ColumnName="Allergen" />
+          <ScalarProperty Name="Reaction" ColumnName="Reaction" />
+          <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_DocumentListLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_DocumentListLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_DocumentListLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="ClientDocumentGUID" ColumnName="ClientDocumentGUID" />
+          <ScalarProperty Name="AuthoredDtm" ColumnName="AuthoredDtm" />
+          <ScalarProperty Name="DocumentName" ColumnName="DocumentName" />
+          <ScalarProperty Name="AuthoredProvider" ColumnName="AuthoredProvider" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_ResultsLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_ResultsLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_ResultsLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="MasterCategory" ColumnName="MasterCategory" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="AbnormalityCode" ColumnName="AbnormalityCode" />
+          <ScalarProperty Name="ReferenceUpperLimit" ColumnName="ReferenceUpperLimit" />
+          <ScalarProperty Name="ReferenceLowerLimit" ColumnName="ReferenceLowerLimit" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PerformedDtm" ColumnName="PerformedDtm" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="SignificantDtm" ColumnName="SignificantDtm" />
+          <ScalarProperty Name="PriorityCode" ColumnName="PriorityCode" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_FlowsheetLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_FlowsheetLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_FlowsheetLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="DocumentName" ColumnName="DocumentName" />
+          <ScalarProperty Name="DocumentAuthoredDtm" ColumnName="DocumentAuthoredDtm" />
+          <ScalarProperty Name="DocGUID" ColumnName="DocGUID" />
+          <ScalarProperty Name="ObsLabelRight" ColumnName="ObsLabelRight" />
+          <ScalarProperty Name="ObsComments" ColumnName="ObsComments" />
+          <ScalarProperty Name="ObsDisplaySeq" ColumnName="ObsDisplaySeq" />
+          <ScalarProperty Name="ObsHeading" ColumnName="ObsHeading" />
+          <ScalarProperty Name="UserModified" ColumnName="UserModified" />
+          <ScalarProperty Name="ColumnTextComments" ColumnName="ColumnTextComments" />
+          <ScalarProperty Name="LastUpdatedtimeOfOBSDoc" ColumnName="LastUpdatedtimeOfOBSDoc" />
+          <ScalarProperty Name="ValueAndUOM" ColumnName="ValueAndUOM" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_ProblemListLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_ProblemListLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_ProblemListLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ProblemText" ColumnName="ProblemText" />
+          <ScalarProperty Name="OnsetDate" ColumnName="OnsetDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_SignificantEventLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_SignificantEventLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_SignificantEventLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="EventDescription" ColumnName="EventDescription" />
+          <ScalarProperty Name="EventText" ColumnName="EventText" />
+          <ScalarProperty Name="LastUpdated" ColumnName="LastUpdated" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_DocumentDetailLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_DocumentDetailLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_DocumentDetailLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="ClientDocumentGUID" ColumnName="ClientDocumentGUID" />
+          <ScalarProperty Name="PatCareDocGUID" ColumnName="PatCareDocGUID" />
+          <ScalarProperty Name="DocumentName" ColumnName="DocumentName" />
+          <ScalarProperty Name="DocumentType" ColumnName="DocumentType" />
+          <ScalarProperty Name="HasBeenModified" ColumnName="HasBeenModified" />
+          <ScalarProperty Name="ModificationDtm" ColumnName="ModificationDtm" />
+          <ScalarProperty Name="AuthoredDtm" ColumnName="AuthoredDtm" />
+          <ScalarProperty Name="IsCanceled" ColumnName="IsCanceled" />
+          <ScalarProperty Name="DocDetailText" ColumnName="DocDetailText" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_HomeMedsLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_HomeMedsLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_HomeMedsLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="DrugName" ColumnName="DrugName" />
+          <ScalarProperty Name="ReconciliationStatus" ColumnName="ReconciliationStatus" />
+          <ScalarProperty Name="HomeMedStatus" ColumnName="HomeMedStatus" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="PreferredPharmacy" ColumnName="PreferredPharmacy" />
+          <ScalarProperty Name="MedicationStatus" ColumnName="MedicationStatus" />
+          <ScalarProperty Name="LastDoseTaken" ColumnName="LastDoseTaken" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_MedAdminLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_MedAdminLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_MedAdminLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="TaskOrderSummaryLine" ColumnName="TaskOrderSummaryLine" />
+          <ScalarProperty Name="TaskStatusCode" ColumnName="TaskStatusCode" />
+          <ScalarProperty Name="ScheduleDtm" ColumnName="ScheduleDtm" />
+          <ScalarProperty Name="TaskDose" ColumnName="TaskDose" />
+          <ScalarProperty Name="TaskUOM" ColumnName="TaskUOM" />
+          <ScalarProperty Name="PerformedFromDtm" ColumnName="PerformedFromDtm" />
+          <ScalarProperty Name="OrderTaskGUID" ColumnName="OrderTaskGUID" />
+          <ScalarProperty Name="LastAdministered" ColumnName="LastAdministered" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="NextScheduled" ColumnName="NextScheduled" />
+          <ScalarProperty Name="SignificantDtm" ColumnName="SignificantDtm" />
+          <ScalarProperty Name="ScheduledNextAvailable" ColumnName="ScheduledNextAvailable" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="TaskReason" ColumnName="TaskReason" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UH_DV_OrdersLite_O_R_Pr" FunctionName="DowntimeViewerModel.Store.UH_DV_OrdersLite_O_R_Pr">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DowntimeViewerModel.UH_DV_OrdersLite_O_R_Pr_Result">
+          <ScalarProperty Name="ClientGUID" ColumnName="ClientGUID" />
+          <ScalarProperty Name="ChartGUID" ColumnName="ChartGUID" />
+          <ScalarProperty Name="ClientVisitGUID" ColumnName="ClientVisitGUID" />
+          <ScalarProperty Name="OrderName" ColumnName="OrderName" />
+          <ScalarProperty Name="OrderRequestedDtm" ColumnName="OrderRequestedDtm" />
+          <ScalarProperty Name="OrderRequestedBy" ColumnName="OrderRequestedBy" />
+          <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+          <ScalarProperty Name="OrderReviewCategory" ColumnName="OrderReviewCategory" />
+          <ScalarProperty Name="OrderSummaryLine" ColumnName="OrderSummaryLine" />
+          <ScalarProperty Name="OrderReviewCategorySortCode" ColumnName="OrderReviewCategorySortCode" />
+          <ScalarProperty Name="OrderIsConditional" ColumnName="OrderIsConditional" />
+          <ScalarProperty Name="OrderConditionsText" ColumnName="OrderConditionsText" />
+          <ScalarProperty Name="OrderIsHeld" ColumnName="OrderIsHeld" />
+          <ScalarProperty Name="OrderHoldReasonText" ColumnName="OrderHoldReasonText" />
+          <ScalarProperty Name="OrderIsSuspended" ColumnName="OrderIsSuspended" />
+          <ScalarProperty Name="SuspendedText" ColumnName="SuspendedText" />
+          <ScalarProperty Name="VerifiedOrderId" ColumnName="VerifiedOrderId" />
+          <ScalarProperty Name="VerifiedDtm" ColumnName="VerifiedDtm" />
+          <ScalarProperty Name="VerifiedByGUID" ColumnName="VerifiedByGUID" />
+          <ScalarProperty Name="VerifiedStatus" ColumnName="VerifiedStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

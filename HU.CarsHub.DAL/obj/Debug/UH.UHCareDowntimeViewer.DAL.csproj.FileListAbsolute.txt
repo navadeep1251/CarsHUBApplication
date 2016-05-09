@@ -1,0 +1,8 @@
+C:\TFS\UH\CMS\UHCareDowntimeViewer\Development\UH.UHCareDowntimeViewer.DAL\bin\Debug\UH.UHCareDowntimeViewer.DAL.dll.config
+C:\TFS\UH\CMS\UHCareDowntimeViewer\Development\UH.UHCareDowntimeViewer.DAL\bin\Debug\UH.UHCareDowntimeViewer.DAL.dll
+C:\TFS\UH\CMS\UHCareDowntimeViewer\Development\UH.UHCareDowntimeViewer.DAL\bin\Debug\UH.UHCareDowntimeViewer.DAL.pdb
+C:\TFS\UH\CMS\UHCareDowntimeViewer\Development\UH.UHCareDowntimeViewer.DAL\bin\Debug\EntityFramework.dll
+C:\TFS\UH\CMS\UHCareDowntimeViewer\Development\UH.UHCareDowntimeViewer.DAL\bin\Debug\EntityFramework.xml
+C:\TFS\UH\CMS\UHCareDowntimeViewer\Development\UH.UHCareDowntimeViewer.DAL\obj\Debug\UH.UHCareDowntimeViewer.DAL.csprojResolveAssemblyReference.cache
+C:\TFS\UH\CMS\UHCareDowntimeViewer\Development\UH.UHCareDowntimeViewer.DAL\obj\Debug\UH.UHCareDowntimeViewer.DAL.dll
+C:\TFS\UH\CMS\UHCareDowntimeViewer\Development\UH.UHCareDowntimeViewer.DAL\obj\Debug\UH.UHCareDowntimeViewer.DAL.pdb
