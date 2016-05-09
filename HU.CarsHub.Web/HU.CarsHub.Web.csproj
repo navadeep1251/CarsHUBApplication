@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B186FF01-95A4-4C7E-A0D8-D6E8FDF8645E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HU.CarsHub.Web</RootNamespace>
+    <AssemblyName>HU.CarsHub.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\carhub.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="Templates\BMW\BMW1.html" />
+    <Content Include="Templates\BMW\BMW2.html" />
+    <Content Include="Templates\BMW\BMW3.html" />
+    <Content Include="Templates\Ford\Ford1.html" />
+    <Content Include="Templates\Ford\Ford2.html" />
+    <Content Include="Templates\Ford\Ford3.html" />
+    <Content Include="Templates\Images\Bmw1.PNG" />
+    <Content Include="Templates\Images\bmw10.PNG" />
+    <Content Include="Templates\Images\bmw11.PNG" />
+    <Content Include="Templates\Images\bmw12.PNG" />
+    <Content Include="Templates\Images\bmw2.PNG" />
+    <Content Include="Templates\Images\bmw3.PNG" />
+    <Content Include="Templates\Images\bmw4.PNG" />
+    <Content Include="Templates\Images\bmw5.PNG" />
+    <Content Include="Templates\Images\bmw6.PNG" />
+    <Content Include="Templates\Images\bmw7.PNG" />
+    <Content Include="Templates\Images\bmw8.PNG" />
+    <Content Include="Templates\Images\bmw9.PNG" />
+    <Content Include="Templates\Images\ford1.PNG" />
+    <Content Include="Templates\Images\ford2.PNG" />
+    <Content Include="Templates\Images\ford3.PNG" />
+    <Content Include="Templates\Images\ford4.PNG" />
+    <Content Include="Templates\Images\ford5.PNG" />
+    <Content Include="Templates\Images\ford6.PNG" />
+    <Content Include="Templates\Images\ford7.PNG" />
+    <Content Include="Templates\Images\ford8.PNG" />
+    <Content Include="Templates\Images\ford9.PNG" />
+    <Content Include="Templates\Images\jag1.PNG" />
+    <Content Include="Templates\Images\jag10.PNG" />
+    <Content Include="Templates\Images\jag11.PNG" />
+    <Content Include="Templates\Images\jag12.PNG" />
+    <Content Include="Templates\Images\jag2.PNG" />
+    <Content Include="Templates\Images\jag3.PNG" />
+    <Content Include="Templates\Images\jag4.PNG" />
+    <Content Include="Templates\Images\jag5.PNG" />
+    <Content Include="Templates\Images\jag6.PNG" />
+    <Content Include="Templates\Images\jag7.PNG" />
+    <Content Include="Templates\Images\jag8.PNG" />
+    <Content Include="Templates\Images\jag9.PNG" />
+    <Content Include="Templates\Images\merc1.PNG" />
+    <Content Include="Templates\Images\merc10.PNG" />
+    <Content Include="Templates\Images\merc11.PNG" />
+    <Content Include="Templates\Images\merc12.PNG" />
+    <Content Include="Templates\Images\merc2.PNG" />
+    <Content Include="Templates\Images\merc3.PNG" />
+    <Content Include="Templates\Images\merc4.PNG" />
+    <Content Include="Templates\Images\merc5.PNG" />
+    <Content Include="Templates\Images\merc6.PNG" />
+    <Content Include="Templates\Images\merc7.PNG" />
+    <Content Include="Templates\Images\merc8.PNG" />
+    <Content Include="Templates\Images\merc9.PNG" />
+    <Content Include="Templates\Jaguar\Jag1.html" />
+    <Content Include="Templates\Jaguar\Jag2.html" />
+    <Content Include="Templates\Jaguar\Jag3.html" />
+    <Content Include="Templates\Mercedes\Merc1.html" />
+    <Content Include="Templates\Mercedes\Merc2.html" />
+    <Content Include="Templates\Mercedes\Merc3.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\Jaguar\ve-57FB.tmp" />
+    <Content Include="Templates\Jaguar\ve-92B6.tmp" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54255/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

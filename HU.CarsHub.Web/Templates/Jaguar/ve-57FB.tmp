@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Car HUB with Bootstrap</title>
+
+
+    <link href="../../css/bootstrap.css" rel="stylesheet" />
+
+
+    <link href="../../css/carhub.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="BMW1.html">BMW</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="Ford/Ford1.html">Ford</a>
+                    </li>
+                    <li>
+                        <a href="Mercedes/Merc1.html">Mercedes</a>
+                    </li>
+                    <li>
+                        <a href="Jaguar/Jag1.html">Jaguar</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Car HUB
+                   
+                    <small>Models to Watch</small>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <div>
+                    <img class="img-responsive" src="../Images/jag1.PNG" alt="">
+                    <br>
+                    <b>Jaguar F-PACE </b>
+                </div>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <div>
+                    <img class="img-responsive" src="../Images/jag2.PNG" alt="">
+                    <br>
+                    <b>Jaguar XE </b>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <div>
+                    <img class="img-responsive" src="../Images/jag3.PNG" alt="">
+                    <br>
+                    <b>Jaguar XF </b>
+                </div>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <div>
+                    <img class="img-responsive" src="../Images/jag4.PNG" alt="">
+                    <br>
+                    <b>Jaguar XJ Standard</b>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="Jaguar/Jag1.html">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="Jaguar/Jag1.html">1</a>
+                    </li>
+                    <li>
+                        <a href="Jag2.html">2</a>
+                    </li>
+                    <li>
+                        <a href="Jag3.html">3</a>
+                    </li>
+                    <li>
+                        <a href="Jag3.html">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Carshub 2016</p>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

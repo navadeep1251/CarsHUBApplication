@@ -1,0 +1,5 @@
+C:\My Projects\UHPHI\Development\HU.CarsHub.Web\bin\HU.CarsHub.Web.dll
+C:\My Projects\UHPHI\Development\HU.CarsHub.Web\bin\HU.CarsHub.Web.pdb
+C:\My Projects\UHPHI\Development\HU.CarsHub.Web\obj\Debug\HU.CarsHub.Web.csprojResolveAssemblyReference.cache
+C:\My Projects\UHPHI\Development\HU.CarsHub.Web\obj\Debug\HU.CarsHub.Web.dll
+C:\My Projects\UHPHI\Development\HU.CarsHub.Web\obj\Debug\HU.CarsHub.Web.pdb
