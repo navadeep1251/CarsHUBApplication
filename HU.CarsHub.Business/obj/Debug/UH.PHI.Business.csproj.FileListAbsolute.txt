@@ -1,0 +1,30 @@
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.Business.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.Business.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\EntityFramework.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.Common.Business.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.Common.Logging.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.Common.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.DAL.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.Model.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\log4net.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.Common.Business.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.Common.Model.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.Common.Logging.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.DAL.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.Model.pdb
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\EntityFramework.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\bin\Debug\log4net.xml
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\obj\Debug\UH.PHI.Business.csprojResolveAssemblyReference.cache
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\obj\Debug\UH.PHI.Business.dll
+C:\TFS\UH\CMS\UHPHI\Development\UH.UHPHI.Business\obj\Debug\UH.PHI.Business.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.Business.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.Business.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\bin\Debug\EntityFramework.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.DAL.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.Model.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.DAL.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\bin\Debug\UH.PHI.Model.pdb
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\bin\Debug\EntityFramework.xml
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\obj\Debug\UH.PHI.Business.csprojResolveAssemblyReference.cache
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\obj\Debug\UH.PHI.Business.dll
+C:\My Projects\UHPHI\Development\UH.UHPHI.Business\obj\Debug\UH.PHI.Business.pdb
